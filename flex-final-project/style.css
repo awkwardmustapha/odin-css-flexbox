@@ -1,0 +1,153 @@
+body {
+    font-family: Roboto;
+    text-align: center;
+}
+.hero {
+    background: #1F2937;
+}
+#footer {
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 24px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    padding: 20px 200px 20px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links {
+    display: flex;
+    gap: 6px;
+
+}
+ul {
+    list-style-type: none;
+}
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.sectext,.header .right {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.pritext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    text-align: left;
+}
+.main {
+    padding: 50px 200px 100px 200px;
+    text-align: justify;
+
+    display: flex;
+    gap: 24px;
+}
+.main .left {
+    flex: 1;
+}
+.main .right {
+    background: #7c7d80;
+    color: white;
+    padding: 24px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+button,.banner {
+    background: #3882F6;
+    color: white;
+    font-size: 16px;
+    padding: 12px 36px;
+    border-radius: 8px;
+}
+.info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 16px;
+}
+.container {
+    padding: 20px 10px 50px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+}
+.item {
+    max-width: 160px;
+    height: auto;
+    flex: 1;
+    font-size: 18px;
+    text-align: center;
+}
+.image {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+}
+.thorframe {
+    background: #E5E7EB;
+    padding: 100px 10px 100px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thor {
+    width: 680px;
+    text-align: justify;
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+}
+.sig {
+    text-align: right;
+    font-size: 23px;
+    font-weight: 900;
+}
+.rightbut {
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 8px;
+}
+.bannercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    display: flex;
+    width: 700px;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    gap: 50px;
+}
+.banner .left {
+    flex: 3;
+}
+.banner .right {
+    flex: 1;
+}
+.calltit {
+    font-weight: 900;
+    font-size: 16px;
+}
+.calltex {
+    font-size: 14px;
+}
